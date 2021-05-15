@@ -18,7 +18,7 @@
 	    	}
 			}
 
-			if(target.innerHTML=="Dove" ||target.innerHTML=="La nostra storia" ){
+			if(target.innerHTML=="Dove" ||target.innerHTML=="La nostra storia" ||target.innerHTML=="Il viaggio" ||target.innerHTML=="Condividi le foto"){
 				if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
@@ -32,7 +32,9 @@
 
 	var offcanvasMenu = function() {
 
-		$('#page').prepend('<div id="fh5co-offcanvas" />');
+		$('#page').prepend('<div id="fh5co-offcanvas"/>');
+		$('.fh5co-nav #fh5co-logo').clone().appendTo( "#fh5co-offcanvas" );
+
 		$('#page').prepend('<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
 		$('#fh5co-offcanvas').append(clone1);
@@ -173,7 +175,7 @@
 
 			$('html, body').animate({
 				scrollTop: $('html').offset().top
-			}, 500, 'easeInOutExpo');
+			}, 800, 'easeInOutExpo');
 
 			return false;
 		});
@@ -190,8 +192,28 @@
 		});
 
 	};
+	
+  var menufixed = function(){
+    	var nav = $("nav.fh5co-nav");
+    	console.log(nav);
+        var bheader = $(".fh5co-cover").height()-30;
 
-
+        $(window).scroll(function(){
+            if ($(window).scrollTop() > bheader) {
+                nav.addClass("headerfixed");
+                if($(".fh5co-nav-toggle").length > 0)
+                	$(".fh5co-nav-toggle").addClass("headerfixed");
+            }
+            else {
+                nav.removeClass("headerfixed");
+                if($(".fh5co-nav-toggle").length > 0)
+                	$(".fh5co-nav-toggle").addClass("headerfixed");
+            }
+        });
+  }
+  
+  
+  
 	// Loading page
 	var loaderPage = function() {
 		$(".fh5co-loader").fadeOut("slow");
@@ -235,6 +257,7 @@
 		loaderPage();
 		counter();
 		counterWayPoint();
+		menufixed();
 	});
 
 
