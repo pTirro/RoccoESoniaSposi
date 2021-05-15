@@ -1,0 +1,13 @@
+@font-face {
+  font-family:"Galatia";
+  src:url('RoccoESoniaSposi-master/fonts/galatia/Galatia.eot');
+  src: :local('Galatia'),
+      url('RoccoESoniaSposi-master/fonts/galatia/Galatia.eot?#iefix') format('embedded-opentype'),
+    url('RoccoESoniaSposi-master/fonts/galatia/Galatia.ttf') format('truetype'),
+    url('RoccoESoniaSposi-master/fonts/galatia/Galatia.woff') format('woff'),
+    url('RoccoESoniaSposi-master/fonts/galatia/Galatia.woff2') format('woff2'),
+    url('RoccoESoniaSposi-master/fonts/galatia/Galatia.svg?#Galatia') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
