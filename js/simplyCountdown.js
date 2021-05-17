@@ -123,12 +123,12 @@
                 seconds: 0,
                 words: {
                     days: 'giorni',
-                    hours: 'hour',
-                    minutes: 'minute',
+                    hours: 'ore',
+                    minutes: 'minuti',
                     seconds: 'second',
-                    pluralLetter: 's'
+                    pluralLetter: ''
                 },
-                plural: true,
+                plural: false,
                 inline: false,
                 enableUtc: true,
                 onEnd: function () {
