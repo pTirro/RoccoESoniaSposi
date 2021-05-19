@@ -427,7 +427,7 @@ background: linear-gradient(
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(6, 31, 79, 0.55);
+  background: rgba(6, 31, 79, 0.30);
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
