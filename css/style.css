@@ -160,6 +160,7 @@ nav.fh5co-nav.headerfixed {
     border: solid 2px white;
     border-radius: 3px;
     display: inline-block;
+    margin-left: 40px;
 }
 .fh5co-nav ul li.menu-btn a {
    
@@ -2043,6 +2044,15 @@ div#fh5co-offcanvas img {
 }
 div#fh5co-offcanvas {
     padding: 45px 40px 40px 40px;
+}
+
+
+.headerfixed ul li.menu-btn:hover {
+    border-color: #ffffff;
+} 
+nav.fh5co-nav.headerfixed ul li.menu-btn:hover a {
+    background: #ffffff;
+    color: #377572;
 }
 @media screen and (max-width: 1300px) {
   .fh5co-heading h2 {
