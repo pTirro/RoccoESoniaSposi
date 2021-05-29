@@ -2028,8 +2028,8 @@ div#fh5co-gift .text {
     top: 6%;
 }
 div#fh5co-gift .abstract span {
-    font-size: 2rem;
-    color: #b3a865;
+	text-transform: uppercase;
+	color: #b3a865;
 }
 #fh5co-footer {
     padding: 40px;  
