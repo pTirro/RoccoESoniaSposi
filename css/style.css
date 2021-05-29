@@ -2034,9 +2034,20 @@ div#fh5co-gift .abstract span {
 #fh5co-footer {
     padding: 40px;  
 }
+@media screen and (max-width: 1200px) {
+  .fh5co-heading h2 {
+     font-size: 50px;
+   }
+  div#fh5co-gift .fh5co-heading {
+    margin-top: 0;
+    margin-bottom: 6px;
+  }
+	
+
+}
 
 @media screen and (max-width: 768px) {
-  
+
   	div#fh5co-couple {
     	padding-top: 100px;
 	}
@@ -2048,20 +2059,52 @@ div#fh5co-gift .abstract span {
 		width: 45%;
     	height: 115px;
 	}
+	
 	ul.timeline > li > .timeline-badge {
-    	position: relative;
-   	 	width: 200px;
-    	height: 200px;
-    	left: 0px;
+    	 position: relative;
+   	 width: 212px;
+    	 height: 218px;
+    	 left: 0px;
 	}
 	ul.timeline:before {
     	left: 110px;
    	 bottom: 14%;
 	}
 	div#fh5co-gift .text {
-   
-    position: relative;
-   
+    	 position: relative;
+	}
+	.fh5co-heading h2 {
+    	  font-size: 40px;
+    	  line-height: 51px;
+    	  margin-top: 30px;
+	}
+	div#fh5co-couple-story::before,div#fh5co-couple-story::after{
+	 display:none;
+	}
+	div#fh5co-gift h3 {
+    	  font-size: 20px;
+    	  line-height: 24px;
+	}
+	
+	div#fh5co-album .text-left.playstore {
+    	  margin: 16px 0;
+    	  margin-top: 0px;
+    	  width: 50%;
+    	  float: left;
+	}
+	#fh5co-footer {
+    	  padding: 25px 20px;
+	}
+	footer .col-md-6.col-xs-12.text-right {
+    	  text-align: left;
+	}
 }
+
+
+@media screen and (max-width: 400px) {
+  ul.timeline:before {
+    left: 110px;
+    bottom: 17%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
