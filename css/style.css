@@ -2034,6 +2034,12 @@ div#fh5co-gift .abstract span {
 #fh5co-footer {
     padding: 40px;  
 }
+div#fh5co-album .col-md-4.text-center img {
+    width: 100%;
+}
+div#fh5co-offcanvas img {
+    width: 125px;
+}
 @media screen and (max-width: 1300px) {
   .fh5co-heading h2 {
      font-size: 50px;
