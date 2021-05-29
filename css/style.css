@@ -2098,6 +2098,21 @@ div#fh5co-gift .abstract span {
 	footer .col-md-6.col-xs-12.text-right {
     	  text-align: left;
 	}
+	
+	
+	#fh5co-header .display-tc, #fh5co-counter .display-tc, .fh5co-cover .display-tc {
+   	 padding-bottom: 100px;
+	}
+	.simply-countdown > .simply-section, .simply-countdown > .simply-section > div {
+    	 width: 80px;
+   	 height: 80px;
+	}
+	.simply-countdown > .simply-section .simply-amount {
+    	  font-size: 24px;
+	}
+	.simply-countdown {
+    	 margin-bottom: 15px;
+	}
 }
 
 
