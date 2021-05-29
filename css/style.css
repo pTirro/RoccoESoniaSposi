@@ -2039,6 +2039,10 @@ div#fh5co-album .col-md-4.text-center img {
 }
 div#fh5co-offcanvas img {
     width: 125px;
+    margin-bottom: 30px;
+}
+div#fh5co-offcanvas {
+    padding: 45px 40px 40px 40px;
 }
 @media screen and (max-width: 1300px) {
   .fh5co-heading h2 {
@@ -2118,7 +2122,11 @@ div#fh5co-offcanvas img {
 	}
 	.simply-countdown {
     	 margin-bottom: 15px;
+		
 	}
+	div#fh5co-event {
+    	  background-image: url(../images/site/mobile-location.jpg)!important;
+       }
 }
 
 
