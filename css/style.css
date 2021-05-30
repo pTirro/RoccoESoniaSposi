@@ -2137,6 +2137,11 @@ nav.fh5co-nav.headerfixed ul li.menu-btn:hover a {
 	div#fh5co-event {
     	  background-image: url(../images/site/mobile-location.jpg)!important;
        }
+	div#fh5co-album .col-md-4.text-center img {
+    	 width: 70%;
+    	 margin: 0 auto;
+   	 margin-bottom: 20px;
+	}
 }
 
 
