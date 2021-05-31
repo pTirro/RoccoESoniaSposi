@@ -518,7 +518,7 @@ background: linear-gradient(
 }
 .timeline:before {
   top: 80px;
-    bottom: 80px;
+    bottom: 110px;
     position: absolute;
     content: " ";
     width: 2px;
