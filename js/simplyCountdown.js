@@ -118,7 +118,7 @@
                 year: 2021,
                 month: 8,
                 day: 20,
-                hours: 0,
+                hours: 17,
                 minutes: 0,
                 seconds: 0,
                 words: {
@@ -156,8 +156,8 @@
         targetTmpDate = new Date(
             parameters.year,
             parameters.month - 1,
-            parameters.day,
-            parameters.hours,
+            parameters.day - 1,
+            parameters.hours + 2,
             parameters.minutes,
             parameters.seconds
         );
